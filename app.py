@@ -434,92 +434,8 @@ elif choose == "Education":
 
 elif choose == "Conference and Research Experience":
     st.header("Conference and Research Experience")
-    with st.container():
-        text_column, image_column = st.columns((3,1))
-        with text_column:
-            st.subheader("FashionMNIST: A Deep Dive into JAX Modeling")
-            st.write("*Ongoing Project : First time trying jax library with the famous fashion MNIST dataset. *")
-        with image_column:
-            st.image(img_jax)
-     
-    keywords = ["Jax ", "Deep Learning", "Image Dataset Analysis"]
-    colors = ["#FF5733"]
-    colored_keywords = ', '.join([f'<span style="color: {colors[idx % len(colors)]}">{keyword}</span>' for idx, keyword in enumerate(keywords)])
-    st.markdown(f"**Keywords**: {colored_keywords}", unsafe_allow_html=True)
-    with st.container():
-        text_column, image_column = st.columns((3,1))
-        with text_column:
-            st.subheader(" Simulation of Racing Cars Game using Reinforcement Learning")
-            st.write("*Ongoing Project*")
-        with image_column:
-            st.image(img_racing)
-     
-    keywords = ["OpenAI Gym ", "Intellignet Agent", "State" ,"Reward"]
-    colors = ["#FF5733"]
-    colored_keywords = ', '.join([f'<span style="color: {colors[idx % len(colors)]}">{keyword}</span>' for idx, keyword in enumerate(keywords)])
-    st.markdown(f"**Keywords**: {colored_keywords}", unsafe_allow_html=True)     
-    with st.container():
-        text_column, image_column = st.columns((3,1))
-        with text_column:
-            st.subheader(" Internship Project: Building a Comparative Study  of Transformer-based language models on ADAD(M&C's Project) specifications understanding.")
-            st.write("*This internship project presents a comparative study of Transformers-based language models, with a primary focus on their efficacy in understanding project specifications. The analysis delves into various models, highlighting their strengths and weaknesses in the context of extracting meaningful insights from project requirements. Additionally, the report provides an overview of key research papers in the realm of Large Language Models (LLMs). This comparative study aims to furnish readers with a clearer picture of the capabilities and limitations of current Transformer architectures in project specification comprehension.*")
-            mention(label="Github Code", icon="github", url="https://github.com/berrejebamen/Building_comparative_study_of_large_language_models_on_a_project_specifcations_understanding",)
-        with image_column:
-            st.image(img_groundup)
-     
-    keywords = ["BERT", "T5", "ALBERT" , "Project Specifications" , "GPT" , "Pytorch" , "Transformers" ,"ROUGE Score", "Research", ""]
-    colors = ["#FF5733"]
-    colored_keywords = ', '.join([f'<span style="color: {colors[idx % len(colors)]}">{keyword}</span>' for idx, keyword in enumerate(keywords)])
-    st.markdown(f"**Keywords**: {colored_keywords}", unsafe_allow_html=True)   
-    with st.container():
-        text_column, image_column = st.columns((3,1))
-        with text_column:
-            st.subheader("End of Year 2 Project: Developing a Streamlit Web Application for Breast Cancer Detection")
-            st.write("*Starting from 2 datasets, I built a user-friendly web application that allows doctors to predict whether a breast tumor is malignant or benign and to predict the possibility of developing breast cancer.*")
-            mention(label="Github Code", icon="github", url="https://github.com/berrejebamen/Breast_cancer_web_app",)
-        with image_column:
-            st.image(img_breast)
-     
-    keywords = ["Streamlit", "Machine Learning For Medical Diagnosis", "Data Analysis"]
-    colors = ["#FF5733"]
-    colored_keywords = ', '.join([f'<span style="color: {colors[idx % len(colors)]}">{keyword}</span>' for idx, keyword in enumerate(keywords)])
-    st.markdown(f"**Keywords**: {colored_keywords}", unsafe_allow_html=True)                  
-    with st.container():
-        text_column, image_column = st.columns((3,1))
-        with text_column:
-            st.subheader("End of Year 1 Project: A Bibliographic Research about Geospatial Big Data")
-            st.write("*Reviewing the methods used to gather, analyse geospatial big data, state-of-the-art review of machine learning methods and framework used in the geospatial domain.*")
-            mention(label="Google Drive", icon="📁", url="https://drive.google.com/file/d/10ZC8aL0IBz-z2youe7EGlOGk31-TV79u/view?usp=drive_link",)
-        with image_column:
-            st.image(img_geo)
-    keywords = ["Cloud Computing", "Machine Learning Applied to Geospatial Data", "GIS Framework"]
-    colors = ["#FF5733"]
-    colored_keywords = ', '.join([f'<span style="color: {colors[idx % len(colors)]}">{keyword}</span>' for idx, keyword in enumerate(keywords)])        
-    st.markdown(f"**Keywords**: {colored_keywords}", unsafe_allow_html=True)    
-    with st.container():
-        text_column, image_column = st.columns((3,1))
-        with text_column:
-            st.subheader("Building a Small Neural Network from Scratch")
-            st.write("*Instead of using predefined frameworks , I built a small neural network using Numpy*")
-            mention(label="Github Code", icon="github", url="",)
-        with image_column:
-            st.image(img_neural)
-    keywords = ["Deep Learning", "Numpy", "Activation Functions"]
-    colors = ["#FF5733"]
-    colored_keywords = ', '.join([f'<span style="color: {colors[idx % len(colors)]}">{keyword}</span>' for idx, keyword in enumerate(keywords)])
-    st.markdown(f"**Keywords**: {colored_keywords}", unsafe_allow_html=True)         
-    with st.container():
-        text_column, image_column = st.columns((3,1))
-        with text_column:
-           st.subheader("Library Management Desktop Application")
-           st.write("An object-oriented project dedicated to build a desktop application combining several technologies like QT framework and SQL databases.")   
-           mention(label="Google Drive", icon="📁", url="https://www.loom.com/share/48c64c036f0545a8b903d415aa3ef605?sid=7e635573-20bd-45ef-9185-0e2e665fea56",)
-        with image_column:
-              st.image(img_qt)
-    keywords = ["QT framework", "SQL ", "C++"]
-    colors = ["#FF5733"]
-    colored_keywords = ', '.join([f'<span style="color: {colors[idx % len(colors)]}">{keyword}</span>' for idx, keyword in enumerate(keywords)])
-    st.markdown(f"**Keywords**: {colored_keywords}", unsafe_allow_html=True)      
+ 
+  
               
               
               
@@ -577,20 +493,7 @@ elif choose == "Publications":
 
 elif choose == "Extra Academic Activities":
     st.header("Extra Academic Activities")
-    with st.container():
-        image_column, text_column = st.columns((1,5))
-        with image_column:
-            st.image(img_ieee)
-        with text_column:
-            st.subheader("Senior Member, [IEEE ENIT STUDENT BRANCH ]")
-            st.write("October 2021 Until Now")
-    with st.container():
-        image_column, text_column = st.columns((1,5))
-        with image_column:
-            st.image(img_gdsc)
-        with text_column:
-            st.subheader("Senior Member, [GOOGLE DEVELOPER STUDENT CLUBS , ENIT]")
-            st.write("October 2021 Until Now ")
+    
 
 
 elif choose == "Resume":   
