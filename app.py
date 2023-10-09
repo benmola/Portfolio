@@ -597,7 +597,7 @@ elif choose == "Contact":
             st.write("Alternatively, feel free to check out my social accounts below!")
             linkedin_url = "https://www.linkedin.com/in/Rouabah-Siham/"
             twitter_url = "https://twitter.com/SihemRo"
-            email_url = "siham.rouabah@outlook.fr"
+            email_url = "mailo:siham.rouabah@outlook.fr"
             st.markdown(
                 social_icons(32, 32, LinkedIn=linkedin_url, Twitter = twitter_url, Email=email_url),
                 unsafe_allow_html=True)
