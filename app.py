@@ -384,13 +384,17 @@ elif choose == "Experience":
 elif choose == "Skills":  
      st.header("Skills")
       with st.container():
-        text_column1, text_column2 = st.columns((1,5))
-        with text_column1:
+          text_column1, text_column2 = st.columns((1,5))
+          with text_column1:
             st.subheader("Research")
-        with text_column2:
+          with text_column2:
             st.subheader("Cambridge CELTA, Stafford House, London, UK")
             st.write("February 2022 to  March 2022")
-
+     txt3("Research: ","`Quantitative`, `qualitative`, `mixed methods`.")
+     txt3("ESL Teaching","`Lesson planning`, `curriculum design`")
+     txt3("IT", "`SPSS`, `Nvivo`, `Microsoft`, `ELAN`, `Rbrul`, `InDesign`, `Stata`, `Affinity Publisher`")
+     txt3("Languages", " `English`, `Arabic`, `French`, `Berber`")
+     txt3("Event Organisation", "`SLX2017`, `SLX2018`, `SLX2019`")
     
 # Create section for Education
 elif choose == "Education":
