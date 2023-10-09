@@ -239,7 +239,7 @@ if choose == "About Me":
             st.write("💼 My academic journey has honed my expertise in multilingualism, language policies, and sociocultural dynamics. As a lecturer and EFL instructor, I have fostered a passion for language education and empowering learners to embrace linguistic diversity. I take pride in my published works which showcase my commitment to driving meaningful change in language practices. ")
             st.write("👨🏼‍💻 Skilled in SPSS, Nvivo, and fluent in English, Tamazight, Arabic, and French, I thrive in multilingual environments and I advocate for diversity.")
             st.write("💭 Beyond academia, I actively volunteer in teaching, mentoring, and organizing academic events.")
-            st.write("📄 [Resume (3 pages)](https://drive.google.com/file/d/1cZO1jUAa569lU6k9VFldlILICf9YqFG1/view?usp=sharing")
+            st.write("📄 [Resume (3 pages)](https://drive.google.com/file/d/1DqEXGsdIfR8e1pYFv_NWTyVM-2dhMRCf/view?usp=drive_link")
         with middle_column:
             st.empty()
         with right_column:
