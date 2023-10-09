@@ -386,7 +386,7 @@ elif choose == "Skills":
       with st.container():
         text_column1, text_column2 = st.columns((1,5))
         with text_column1:
-            st.image(img_CELTA)
+            st.subheader("Research")
         with text_column2:
             st.subheader("Cambridge CELTA, Stafford House, London, UK")
             st.write("February 2022 to  March 2022")
