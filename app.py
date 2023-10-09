@@ -497,7 +497,7 @@ elif choose == "Extra Academic Activities":
 
 
 elif choose == "Resume":   
-    resume_url = "https://drive.google.com/file/d/1cZO1jUAa569lU6k9VFldlILICf9YqFG1/view?usp=sharing"
+    resume_url = "https://drive.google.com/file/d/1DqEXGsdIfR8e1pYFv_NWTyVM-2dhMRCf/view?usp=drive_link"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 
