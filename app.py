@@ -462,8 +462,8 @@ elif choose == "Publications":
         paper_link_11 = "https://doi.org/10.1515/ijsl-2022-0006"  
         st.markdown(f"[{paper_name_11}]({paper_link_11})")
         paper_name_12 = "Siham Rouabah.”Transitions in the Linguistic Market of Algerian Universities” In the Bringing the outside in Multilingual realities and eduction, Language Science Press, Under Review (fc.2024)"
-        paper_link_12 = "https://langsci-press.org/"  
-        st.markdown(f"[{paper_name_10}]({paper_link_10})")
+        paper_link_12 = "https://langsci-press.org"  
+        st.markdown(f"[{paper_name_12}]({paper_link_12})")
     # Continue adding more papers as needed
 
     elif selected_topic == "Conference Papers":
